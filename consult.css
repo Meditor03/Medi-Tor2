@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Brawler:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo img {
+    width: 95px;
+}
+
+.navbarsignup {
+    margin-left: 33px;
+    width: 21%;
+}
+
+.navbarcontent {
+    margin-left: 5px;
+}
+
+.menuItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menuItems a {
+    text-decoration: none;
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.8935px;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    text-transform: capitalize;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+}
+
+.nav {
+    box-shadow: 0px 5px 28px 13px rgba(0, 0, 0, 0.25);
+}
+
+
+#Signup {
+    background-color: #FF6950;
+    border-radius: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    /* box-shadow: 0 0 2px rgb(0, 0, 0); */
+    transition: 0.2s ease-out;
+}
+
+#login {
+    border: 1.9px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    font-weight: 500;
+    color: black;
+    padding: 12px 20px;
+    transition: 0.2s ease-out;
+}
+
+#Signup:hover {
+    background: transparent;
+    border: 1.9px solid black;
+    color: #000000;
+}
+
+#login:hover {
+    border: 1.9px solid #e67429;
+    color: #e67429;
+}
+
+.consultHeading h3 {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49.7873px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+/* .consultHeading p {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20.62px;
+    line-height: 31px;
+    color: rgba(2, 15, 84, 0.9);
+    letter-spacing: 0.03em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+} */
+
+.consultCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    /* width: auto; */
+}
+
+.consult-link-card1 {
+    background-color: #F3E4F1;
+    width: 201.3px;
+    height: 183px;
+    margin: 10px;
+    border-radius: 34.82px;
+    /* box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25); */
+}
+
+.consult-link-card2 {
+    background-color: #D5D8FC;
+    width: 201.3px;
+    height: 183px;
+    margin: 10px;
+    border-radius: 34.82px;
+    /* box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25); */
+}
+
+.consult-link-card3 {
+    background-color: #D5EBDA;
+    width: 201.3px;
+    height: 183px;
+    margin: 10px;
+    border-radius: 34.82px;
+    /* box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25); */
+}
+
+.consult-link-card4 {
+    background-color: #F3E4F1;
+    width: 201.3px;
+    height: 183px;
+    margin: 10px;
+    border-radius: 34.82px;
+    /* box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25); */
+}
+
+.consult-link-card5 {
+    background-color: #D5D8FC;
+    width: 201.3px;
+    height: 183px;
+    margin: 10px;
+    border-radius: 34.82px;
+    /* box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25); */
+}
+
+.consult-link-card6 {
+    background-color: #D5EBDA;
+    width: 201.3px;
+    height: 183px;
+    margin: 10px;
+    border-radius: 34.82px;
+    /* box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25); */
+}
+
+.consult-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.62px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cosultImage {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.consult-link-card1:hover {
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: all 0.7s ease;
+}
+
+.consult-link-card2:hover {
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.consult-link-card3:hover {
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.consult-link-card4:hover {
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.consult-link-card5:hover {
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.consult-link-card6:hover {
+    box-shadow: 3.26471px 7.61765px 19.5882px rgba(0, 0, 0, 0.25);
+    transform: scale(1);
+    transition: all 0.5s ease;
+}
+
+.consultButton {
+    text-align: center;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin: 70px 0px;
+}
+
+.consultButton a {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3491px;
+    color: #FFFFFF;
+    background-color: #1C2766;
+    padding: 10px 18px;
+    border-radius: 40px;
+    letter-spacing: 0.03em;
+}
+
+.consultButton a:hover {
+    color: #1C2766;
+    background: transparent;
+    border: 2px solid #1C2766;
+    transition: all 0.5s ease;
+}
+
+.consultPart1Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cosultingImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.cosultingImage img{
+    text-align: center;
+    width: 450px;
+}
+
+.consultPart2Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consultPart3Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
